@@ -21,8 +21,8 @@ project_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 if project_dir not in sys.path:
     sys.path.append(project_dir)
 
-from model.data_loader import Arcade  # Ensure this import path is correct
-from model.unet_model import UNet  # Ensure this import path is correct
+from Unet_implementation.data_loader import Arcade  
+from Unet_implementation.unet_model import UNet  
 
 class Augment:
     def __call__(self, image, mask):
