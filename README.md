@@ -11,11 +11,3 @@ UNet: A traditional encoder-decoder architecture commonly used for biomedical im
 SAM2: An architecture from the Segment Anything Model (SAM) series, optimized for general segmentation tasks.
 MedSAM: A version of SAM specifically designed for medical image segmentation, leveraging specialized configuration for improved performance on medical images.
 
-Prerequisites
-Ensure you have Python 3.x installed. Recommended libraries include:
-torch and torchvision
-pytorch_lightning
-tensorboard
-yaml
-matplotlib
-PIL
